@@ -1,5 +1,5 @@
-<form method="get" action="/quizes">
-  	<input type="text" name="search" value="" placeholder="Búsqueda"/>
+<form method="get" action="/quizes/">
+  	<input type="text" name="search" value="<%= search %>" placeholder="Búsqueda"/>
   	<input type="submit" value="Enviar">
 </form>
 <table>
